@@ -24,10 +24,9 @@ namespace WindowsFormsApp1
 
         private void Button4_Click(object sender, EventArgs e)
         {
-            TClist.Clear();
-            TCl.Clear();
             TCgen();
             TClistgen();
+
             label2.Visible = true;
             label4.Hide();
             label5.Hide();
@@ -51,9 +50,9 @@ namespace WindowsFormsApp1
                 button2.BackColor = TCl[TClist[rnd.Next(4)]].Color;
                 button1.BackColor = TCl[TClist[rnd.Next(4)]].Color;
                 button3.BackColor = TCl[TClist[rnd.Next(4)]].Color;
-                if (button2.BackColor != button1.BackColor & button2.BackColor != button3.BackColor & button1.BackColor != button3.BackColor & (button1.BackColor == l2c ^ button2.BackColor == l2c ^ button3.BackColor == l2c))
+                if (button2.BackColor != button1.BackColor && button2.BackColor != button3.BackColor && button1.BackColor != button3.BackColor && (button1.BackColor == l2c || button2.BackColor == l2c || button3.BackColor == l2c))
                 {
-                    if (button1.BackColor == TCl[TClist[1]].Color ^ button2.BackColor == TCl[TClist[1]].Color ^ button3.BackColor == TCl[TClist[1]].Color)
+                    if (button1.BackColor == TCl[TClist[1]].Color || button2.BackColor == TCl[TClist[1]].Color || button3.BackColor == TCl[TClist[1]].Color)
                     {
                         break;
                     }
@@ -63,6 +62,9 @@ namespace WindowsFormsApp1
 
         private void Button5_Click(object sender, EventArgs e)
         {
+            TClist.Clear();
+            TCl.Clear();
+
             this.Hide();
             Form form1 = Application.OpenForms[1];
             form1.Show();
@@ -75,13 +77,19 @@ namespace WindowsFormsApp1
             label2.Visible = false;
             label4.Hide();
             label5.Hide();
-            TClist.Clear();
-            TCl.Clear();
         }
 
         private void Button1_Click(object sender, EventArgs e)
         {
             button4.Show();
+
+            button1.Visible = false;
+            button2.Visible = false;
+            button3.Visible = false;
+            label2.Visible = false;
+            TClist.Clear();
+            TCl.Clear();
+
             if (button1.BackColor == label2.ForeColor)
             {
                 label4.Show();
@@ -90,17 +98,19 @@ namespace WindowsFormsApp1
             {
                 label5.Show();
             }
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            button4.Show();
+
             button1.Visible = false;
             button2.Visible = false;
             button3.Visible = false;
             label2.Visible = false;
             TClist.Clear();
             TCl.Clear();
-        }
 
-        private void Button2_Click(object sender, EventArgs e)
-        {
-            button4.Show();
             if (button2.BackColor == label2.ForeColor)
             {
                 label4.Show();
@@ -109,17 +119,19 @@ namespace WindowsFormsApp1
             {
                 label5.Show();
             }
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            button4.Show();
+
             button1.Visible = false;
             button2.Visible = false;
             button3.Visible = false;
             label2.Visible = false;
             TClist.Clear();
             TCl.Clear();
-        }
 
-        private void Button3_Click(object sender, EventArgs e)
-        {
-            button4.Show();
             if (button3.BackColor == label2.ForeColor)
             {
                 label4.Show();
@@ -128,12 +140,6 @@ namespace WindowsFormsApp1
             {
                 label5.Show();
             }
-            button1.Visible = false;
-            button2.Visible = false;
-            button3.Visible = false;
-            label2.Visible = false;
-            TClist.Clear();
-            TCl.Clear();
         }
 
         private void Label2_Click(object sender, EventArgs e)
@@ -174,10 +180,10 @@ namespace WindowsFormsApp1
                 else return Equals(objAsPart);
             }
 
-            /*public override Color GetHashCode()
+            public override int GetHashCode()
             {
-                return Color;
-            }*/
+                return Color.GetHashCode();
+            }
 
             public bool Equals(TC other)
             {

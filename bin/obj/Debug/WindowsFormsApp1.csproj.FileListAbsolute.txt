@@ -168,3 +168,4 @@ D:\VStudio\Projects\Progreso\bin\obj\Debug\Progreso.exe
 D:\VStudio\Projects\Progreso\bin\obj\Debug\Progreso.pdb
 D:\VStudio\Projects\Progreso\Progreso.exe
 D:\VStudio\Projects\Progreso\Progreso.pdb
+D:\VStudio\Projects\Progreso\bin\obj\Debug\WindowsFormsApp1.Form16.resources
