@@ -338,6 +338,7 @@ namespace WindowsFormsApp1
             pictureBox32.BackgroundImage = Properties.Resources.uptr;
             pictureBox30.BackgroundImage = Properties.Resources.lefttr;
             pictureBox22.BackgroundImage = Properties.Resources.lefttr;
+            pictureBox29.BackgroundImage = Properties.Resources.lefttr;
             pictureBox31.BackgroundImage = Properties.Resources.uptr;
 
             pictureBox22.Visible = false;
