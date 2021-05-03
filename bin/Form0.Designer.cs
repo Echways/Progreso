@@ -49,9 +49,9 @@ namespace WindowsFormsApp1
             this.button20.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button20.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button20.Font = new System.Drawing.Font("a_AssuanTitulStrDst", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button20.Location = new System.Drawing.Point(362, 325);
+            this.button20.Location = new System.Drawing.Point(356, 331);
             this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(120, 50);
+            this.button20.Size = new System.Drawing.Size(120, 49);
             this.button20.TabIndex = 1;
             this.button20.TabStop = false;
             this.button20.Text = "Выход";
@@ -81,9 +81,9 @@ namespace WindowsFormsApp1
             this.button40.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button40.Font = new System.Drawing.Font("a_AssuanTitulStrDst", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button40.ForeColor = System.Drawing.Color.Black;
-            this.button40.Location = new System.Drawing.Point(488, 285);
+            this.button40.Location = new System.Drawing.Point(482, 280);
             this.button40.Name = "button40";
-            this.button40.Size = new System.Drawing.Size(288, 90);
+            this.button40.Size = new System.Drawing.Size(300, 100);
             this.button40.TabIndex = 3;
             this.button40.TabStop = false;
             this.button40.Text = "Играть";
@@ -93,9 +93,9 @@ namespace WindowsFormsApp1
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("a_AssuanTitulStrDst", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(782, 325);
+            this.button1.Location = new System.Drawing.Point(788, 331);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 50);
+            this.button1.Size = new System.Drawing.Size(120, 49);
             this.button1.TabIndex = 4;
             this.button1.TabStop = false;
             this.button1.Text = "Включить музыку";
@@ -106,9 +106,9 @@ namespace WindowsFormsApp1
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("a_AssuanTitulStrDst", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(782, 325);
+            this.button2.Location = new System.Drawing.Point(788, 331);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(120, 50);
+            this.button2.Size = new System.Drawing.Size(120, 49);
             this.button2.TabIndex = 5;
             this.button2.TabStop = false;
             this.button2.Text = "Выключить музыку";

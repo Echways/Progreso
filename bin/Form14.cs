@@ -394,7 +394,7 @@ namespace WindowsFormsApp1
             button14.Visible = true;
             button15.Visible = true;
 
-            wr = 8;
+            wr = 10;
             label9.Text = "Кол-во попыток - ";
             label9.Text += wr;
 
@@ -494,7 +494,7 @@ namespace WindowsFormsApp1
 
             labelprv.Text = "";
             labelppt.Text = "";
-            wr = 8;
+            wr = 10;
             label9.Text = "Кол-во попыток - ";
             label9.Text += wr;
 
@@ -544,7 +544,7 @@ namespace WindowsFormsApp1
 
             labelprv.Text = "";
             labelppt.Text = "";
-            wr = 8;
+            wr = 10;
             label9.Text = "Кол-во попыток - ";
             label9.Text += wr;
 
@@ -604,7 +604,7 @@ namespace WindowsFormsApp1
             this.Hide();
             form1.Show();
         }
-        public int wr = 8;
+        public int wr = 10;
         private void Form14_Load(object sender, EventArgs e)
         {
             label9.Text += wr;

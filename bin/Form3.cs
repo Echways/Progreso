@@ -26,7 +26,7 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+            System.Diagnostics.Process.Start("https://youtu.be/dQw4w9WgXcQ");
             //System.Diagnostics.Process.Start("https://pnrtscr.com/tykjzm");
         }
 

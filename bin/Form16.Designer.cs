@@ -122,7 +122,7 @@ namespace WindowsFormsApp1
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("a_MachinaOrtoSht", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(596, 584);
+            this.button2.Location = new System.Drawing.Point(596, 587);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(170, 70);
             this.button2.TabIndex = 73;
@@ -149,7 +149,7 @@ namespace WindowsFormsApp1
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("a_MachinaOrtoSht", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label5.ForeColor = System.Drawing.Color.Crimson;
-            this.label5.Location = new System.Drawing.Point(616, 559);
+            this.label5.Location = new System.Drawing.Point(617, 559);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(131, 25);
             this.label5.TabIndex = 71;
@@ -161,7 +161,7 @@ namespace WindowsFormsApp1
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("a_MachinaOrtoSht", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.ForeColor = System.Drawing.Color.SpringGreen;
-            this.label4.Location = new System.Drawing.Point(623, 559);
+            this.label4.Location = new System.Drawing.Point(624, 559);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(117, 25);
             this.label4.TabIndex = 70;
@@ -170,10 +170,10 @@ namespace WindowsFormsApp1
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("a_MachinaOrtoSht", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button4.Location = new System.Drawing.Point(609, 589);
+            this.button4.Font = new System.Drawing.Font("a_MachinaOrtoSht", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button4.Location = new System.Drawing.Point(596, 587);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(143, 60);
+            this.button4.Size = new System.Drawing.Size(170, 70);
             this.button4.TabIndex = 69;
             this.button4.TabStop = false;
             this.button4.Text = "Проверить";
