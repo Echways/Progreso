@@ -22,6 +22,12 @@ namespace WindowsFormsApp1
         {
             e.Cancel = true;
             this.Hide();
+
+            FormCollection fc = Application.OpenForms;
+            foreach (Form frm in fc)
+            {
+                Application.Exit();
+            }
         }
 
         private void PictureBox6_Click(object sender, EventArgs e)

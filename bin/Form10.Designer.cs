@@ -296,6 +296,7 @@ namespace WindowsFormsApp1
             this.Name = "Form10";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Английский";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form10_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

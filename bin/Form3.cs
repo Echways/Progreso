@@ -54,5 +54,22 @@ namespace WindowsFormsApp1
         {
             System.Diagnostics.Process.Start("https://vk.com/matvei859");
         }
+
+        private void Form3_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
+            this.Hide();
+
+            FormCollection fc = Application.OpenForms;
+            foreach (Form frm in fc)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void Label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -59,7 +59,7 @@ namespace WindowsFormsApp1
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Caesar Dressing Cyrillic", 50.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("a_AlbionicTtlRg&Bt", 50.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Location = new System.Drawing.Point(567, 219);
             this.button1.Name = "button1";
@@ -72,7 +72,7 @@ namespace WindowsFormsApp1
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Caesar Dressing Cyrillic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("a_AlbionicTtlRg&Bt", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.Location = new System.Drawing.Point(567, 424);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(130, 40);
@@ -83,7 +83,7 @@ namespace WindowsFormsApp1
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Caesar Dressing Cyrillic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("a_AlbionicTtlRg&Bt", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button3.Location = new System.Drawing.Point(767, 424);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(130, 40);
@@ -94,7 +94,7 @@ namespace WindowsFormsApp1
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("Caesar Dressing Cyrillic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("a_AlbionicTtlRg&Bt", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button4.Location = new System.Drawing.Point(367, 424);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(130, 40);
@@ -105,7 +105,7 @@ namespace WindowsFormsApp1
             // 
             // button5
             // 
-            this.button5.Font = new System.Drawing.Font("Caesar Dressing Cyrillic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Font = new System.Drawing.Font("a_AlbionicTtlRg&Bt", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button5.Location = new System.Drawing.Point(967, 424);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(130, 40);
@@ -116,7 +116,7 @@ namespace WindowsFormsApp1
             // 
             // button6
             // 
-            this.button6.Font = new System.Drawing.Font("Caesar Dressing Cyrillic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Font = new System.Drawing.Font("a_AlbionicTtlRg&Bt", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button6.Location = new System.Drawing.Point(167, 424);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(130, 40);
@@ -128,60 +128,61 @@ namespace WindowsFormsApp1
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Caesar Dressing Cyrillic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(598, 401);
+            this.label1.Font = new System.Drawing.Font("a_AlbionicTtlRg&Bt", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(592, 401);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 20);
+            this.label1.Size = new System.Drawing.Size(80, 18);
             this.label1.TabIndex = 18;
             this.label1.Text = "Капитан";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Caesar Dressing Cyrillic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(781, 401);
+            this.label2.Font = new System.Drawing.Font("a_AlbionicTtlRg&Bt", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(772, 403);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 20);
+            this.label2.Size = new System.Drawing.Size(124, 18);
             this.label2.TabIndex = 19;
             this.label2.Text = "Программист";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Caesar Dressing Cyrillic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(594, 196);
+            this.label3.Font = new System.Drawing.Font("a_AlbionicTtlRg&Bt", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(590, 196);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(72, 20);
+            this.label3.Size = new System.Drawing.Size(87, 18);
             this.label3.TabIndex = 20;
             this.label3.Text = "Редактор";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Caesar Dressing Cyrillic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(1007, 401);
+            this.label4.Font = new System.Drawing.Font("a_AlbionicTtlRg&Bt", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Location = new System.Drawing.Point(1001, 401);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(49, 20);
+            this.label4.Size = new System.Drawing.Size(64, 18);
             this.label4.TabIndex = 21;
             this.label4.Text = "Тестер";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Caesar Dressing Cyrillic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(383, 401);
+            this.label5.Font = new System.Drawing.Font("a_AlbionicTtlRg&Bt", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Location = new System.Drawing.Point(373, 403);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(104, 20);
+            this.label5.Size = new System.Drawing.Size(124, 18);
             this.label5.TabIndex = 22;
             this.label5.Text = "Программист";
+            this.label5.Click += new System.EventHandler(this.Label5_Click);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Caesar Dressing Cyrillic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(197, 401);
+            this.label6.Font = new System.Drawing.Font("a_AlbionicTtlRg&Bt", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.Location = new System.Drawing.Point(191, 401);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(73, 20);
+            this.label6.Size = new System.Drawing.Size(90, 18);
             this.label6.TabIndex = 23;
             this.label6.Text = "Дизайнер";
             // 
@@ -209,6 +210,7 @@ namespace WindowsFormsApp1
             this.Name = "Form3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Пасхалка";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form3_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

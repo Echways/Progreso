@@ -463,5 +463,16 @@ namespace WindowsFormsApp1
             button15.Visible = false;
             button14.Visible = false;
         }
+        private void Form12_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
+            this.Hide();
+
+            FormCollection fc = Application.OpenForms;
+            foreach (Form frm in fc)
+            {
+                Application.Exit();
+            }
+        }
     }
 }

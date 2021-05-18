@@ -16,5 +16,27 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void Form5_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Form5_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
+            this.Hide();
+
+            FormCollection fc = Application.OpenForms;
+            foreach (Form frm in fc)
+            {
+                Application.Exit();
+            }
+        }
     }
 }

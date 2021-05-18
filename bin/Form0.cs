@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
+using System.Drawing.Text;
+
  
 namespace WindowsFormsApp1
 {
@@ -22,6 +24,7 @@ namespace WindowsFormsApp1
         readonly Form8 zapusk;
         readonly Form3 rr;
         public string playername;
+        List<string> font_family = new List<string>();
         private void Button40_сlick(object sender, EventArgs e)
         {
             zapusk.Show();
@@ -43,8 +46,54 @@ namespace WindowsFormsApp1
 
         private void Form0_Load(object sender, EventArgs e)
         {
+            ffgen();
+
+            //
+
             SoundPlayer fon = new SoundPlayer(Properties.Resources.Back);
             fon.PlayLooping();
+
+            //
+
+            if (font_family.Contains("a_AssuanTitulStrDst") == false || font_family.Contains("a_MachinaOrtoSht") == false || font_family.Contains("a_AlbionicTtlRg&Bt") == false)
+            {
+                this.TopMost = false;
+                Form5 fontdg = new Form5();
+                fontdg.Show();
+                this.Opacity = 0;
+
+                // 1
+                if (font_family.Contains("a_AssuanTitulStrDst") == true)
+                {
+                    //That's good
+                }
+                else
+                {
+                    System.Diagnostics.Process.Start(@"bin\Resources\Шрифты\a_AssuanTitulStrDs.ttf");
+                }
+
+                // 2
+
+                if (font_family.Contains("a_MachinaOrtoSht") == true)
+                {
+                    //That's good
+                }
+                else
+                {
+                    System.Diagnostics.Process.Start(@"bin\Resources\Шрифты\a_MachinaOrtoSht.ttf");
+                }
+
+                // 3
+
+                if (font_family.Contains("a_AlbionicTtlRg&Bt") == true)
+                {
+                    //That's good
+                }
+                else
+                {
+                    System.Diagnostics.Process.Start(@"bin\Resources\Шрифты\a_AlbionicTtlRgBt.ttf");
+                }
+            }
         }
 
         private void Form0_Activated(object sender, EventArgs e)
@@ -75,6 +124,26 @@ namespace WindowsFormsApp1
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form0_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
+            this.Hide();
+
+            FormCollection fc = Application.OpenForms;
+            foreach (Form frm in fc)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void ffgen()
+        {
+            foreach (FontFamily item in FontFamily.Families)
+            {
+                font_family.Add(item.Name);
+            }
         }
     }
 }

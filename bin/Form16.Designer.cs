@@ -638,6 +638,7 @@ namespace WindowsFormsApp1
             this.Name = "Form16";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спички 2 уровень";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form16_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();

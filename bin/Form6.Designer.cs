@@ -306,6 +306,7 @@
             this.Name = "Form6";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "От 1 до 9";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form6_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

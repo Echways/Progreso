@@ -77,5 +77,16 @@ namespace WindowsFormsApp1
             logic2.Show();
             this.Hide();
         }
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
+            this.Hide();
+
+            FormCollection fc = Application.OpenForms;
+            foreach (Form frm in fc)
+            {
+                Application.Exit();
+            }
+        }
     }
 }

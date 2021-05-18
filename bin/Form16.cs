@@ -405,5 +405,17 @@ namespace WindowsFormsApp1
             pictureBox27.Visible = true;
             pictureBox28.Visible = true;
         }
+
+        private void Form16_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
+            this.Hide();
+
+            FormCollection fc = Application.OpenForms;
+            foreach (Form frm in fc)
+            {
+                Application.Exit();
+            }
+        }
     }
 }

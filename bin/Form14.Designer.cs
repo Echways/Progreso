@@ -523,6 +523,7 @@ namespace WindowsFormsApp1
             this.Name = "Form14";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Карточки";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form14_FormClosing);
             this.Load += new System.EventHandler(this.Form14_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

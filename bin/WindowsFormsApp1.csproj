@@ -249,6 +249,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icon.ico" />
+    <None Include="Resources\Icons\Progresologo.PNG" />
     <None Include="Resources\Спички\lefttr.png" />
     <None Include="Resources\Watermelon14.png" />
     <None Include="Resources\Carrot14.png" />

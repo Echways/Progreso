@@ -970,5 +970,17 @@ namespace WindowsFormsApp1
                 button15.BackColor = Color.MediumSeaGreen;
             }
         }
+
+        private void Form14_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
+            this.Hide();
+
+            FormCollection fc = Application.OpenForms;
+            foreach (Form frm in fc)
+            {
+                Application.Exit();
+            }
+        }
     }
 }

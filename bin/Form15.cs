@@ -864,5 +864,17 @@ namespace WindowsFormsApp1
         {
             cleanerF();
         }
+
+        private void Form15_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
+            this.Hide();
+
+            FormCollection fc = Application.OpenForms;
+            foreach (Form frm in fc)
+            {
+                Application.Exit();
+            }
+        }
     }
 }

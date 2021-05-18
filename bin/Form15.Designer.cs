@@ -372,6 +372,7 @@ namespace WindowsFormsApp1
             this.Name = "Form15";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Хомяк";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form15_FormClosing);
             this.Load += new System.EventHandler(this.Form15_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

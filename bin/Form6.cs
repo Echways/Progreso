@@ -349,6 +349,18 @@ namespace WindowsFormsApp1
             button13.Enabled = false;
         }
 
+        private void Form6_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
+            this.Hide();
+
+            FormCollection fc = Application.OpenForms;
+            foreach (Form frm in fc)
+            {
+                Application.Exit();
+            }
+        }
+
 
         /*private void button11_Click(object sender, EventArgs e)
         {

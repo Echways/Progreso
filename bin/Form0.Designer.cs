@@ -39,9 +39,10 @@ namespace WindowsFormsApp1
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // button20
@@ -126,17 +127,6 @@ namespace WindowsFormsApp1
             this.label1.Text = "© HackStars, 2021 ";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
-            // 
-            this.label2.Font = new System.Drawing.Font("Caesar Dressing Cyrillic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(600, 130);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(150, 40);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Progreso";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Icon;
@@ -147,6 +137,15 @@ namespace WindowsFormsApp1
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::WindowsFormsApp1.Properties.Resources.Progresologo;
+            this.pictureBox2.Location = new System.Drawing.Point(600, 137);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(141, 36);
+            this.pictureBox2.TabIndex = 10;
+            this.pictureBox2.TabStop = false;
+            // 
             // Form0
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -155,8 +154,8 @@ namespace WindowsFormsApp1
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1264, 661);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -169,9 +168,11 @@ namespace WindowsFormsApp1
             this.Name = "Form0";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Меню";
+            this.TopMost = true;
             this.Activated += new System.EventHandler(this.Form0_Activated);
             this.Load += new System.EventHandler(this.Form0_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -202,8 +203,8 @@ namespace WindowsFormsApp1
         private Button button1;
         private Button button2;
         private Label label1;
-        private Label label2;
         private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
     }
 }
 

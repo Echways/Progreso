@@ -881,5 +881,16 @@ namespace WindowsFormsApp1
             this.Hide();
             form1.Show();
         }
+        private void Form13_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
+            this.Hide();
+
+            FormCollection fc = Application.OpenForms;
+            foreach (Form frm in fc)
+            {
+                Application.Exit();
+            }
+        }
     }
 }

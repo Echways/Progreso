@@ -222,6 +222,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap Progresologo {
+            get {
+                object obj = ResourceManager.GetObject("Progresologo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap Qestionmark14 {
             get {
                 object obj = ResourceManager.GetObject("Qestionmark14", resourceCulture);

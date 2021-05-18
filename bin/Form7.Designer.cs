@@ -151,6 +151,7 @@ namespace WindowsFormsApp1
             this.Name = "Form7";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Логика меню";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form7_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

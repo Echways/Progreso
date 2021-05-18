@@ -296,6 +296,7 @@ namespace WindowsFormsApp1
             this.Name = "Form9";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "От 1 до 99";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form9_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

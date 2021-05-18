@@ -63,5 +63,16 @@ namespace WindowsFormsApp1
             logicvr.Show();
             this.Hide();
         }
+        private void Form7_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
+            this.Hide();
+
+            FormCollection fc = Application.OpenForms;
+            foreach (Form frm in fc)
+            {
+                Application.Exit();
+            }
+        }
     }
 }
